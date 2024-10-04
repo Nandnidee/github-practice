@@ -1,0 +1,18 @@
+diff --git a/change.patch b/change.patch
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test.cpp b/test.cpp
+index fc5a600..1606ca6 100644
+--- a/test.cpp
++++ b/test.cpp
+@@ -2,4 +2,6 @@
+ using namespace std;
+ int main(){
+   cout<<"Hello world";
++  cout<<"Hello Earth";
++  return 0;
+ };
+\ No newline at end of file
+diff --git a/test.exe b/test.exe
+index 48e212e..296285a 100644
+Binary files a/test.exe and b/test.exe differ
