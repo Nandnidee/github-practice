@@ -1,0 +1,60 @@
+From a10b9fab5e16445e3b6485fe4a47bbe6960527c6 Mon Sep 17 00:00:00 2001
+From: Nandnidee <deepikaasingh89@gmail.com>
+Date: Fri, 4 Oct 2024 17:32:08 +0530
+Subject: [PATCH 2/3] new
+
+---
+ change.patch |  18 ++++++++++++++++++
+ test.cpp     |   2 ++
+ test.exe     | Bin 134689 -> 134689 bytes
+ 3 files changed, 20 insertions(+)
+ create mode 100644 change.patch
+
+diff --git a/change.patch b/change.patch
+new file mode 100644
+index 0000000..2534c9a
+--- /dev/null
++++ b/change.patch
+@@ -0,0 +1,18 @@
++diff --git a/change.patch b/change.patch
++new file mode 100644
++index 0000000..e69de29
++diff --git a/test.cpp b/test.cpp
++index fc5a600..1606ca6 100644
++--- a/test.cpp
+++++ b/test.cpp
++@@ -2,4 +2,6 @@
++ using namespace std;
++ int main(){
++   cout<<"Hello world";
+++  cout<<"Hello Earth";
+++  return 0;
++ };
++\ No newline at end of file
++diff --git a/test.exe b/test.exe
++index 48e212e..296285a 100644
++Binary files a/test.exe and b/test.exe differ
+diff --git a/test.cpp b/test.cpp
+index fc5a600..1606ca6 100644
+--- a/test.cpp
++++ b/test.cpp
+@@ -2,4 +2,6 @@
+ using namespace std;
+ int main(){
+   cout<<"Hello world";
++  cout<<"Hello Earth";
++  return 0;
+ };
+\ No newline at end of file
+diff --git a/test.exe b/test.exe
+index 48e212ec7df19387bfb365ca4a5d7c138d64225a..296285a63743e06e81ce3f17670731c92a827f8f 100644
+GIT binary patch
+delta 27
+jcmZ2DhhyO!jtL!1sn;fU`7y0iXuQ>Wi*f5MCU;%{sNM^?
+
+delta 27
+jcmZ2DhhyO!jtL!1w)GRc{Fqu#Hr{Hz#klnrlRGZ}rJf7A
+
+-- 
+2.42.0.windows.1
+
